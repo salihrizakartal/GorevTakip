@@ -80,3 +80,4 @@ C:\Users\salih\source\repos\GorevTakip\ConsoleUI\bin\Debug\net6.0\Core.pdb
 C:\Users\salih\source\repos\GorevTakip\ConsoleUI\bin\Debug\net6.0\Business.pdb
 C:\Users\salih\source\repos\GorevTakip\ConsoleUI\bin\Debug\net6.0\DataAccess.pdb
 C:\Users\salih\source\repos\GorevTakip\ConsoleUI\bin\Debug\net6.0\Entities.pdb
+C:\Users\salih\source\repos\GorevTakip\ConsoleUI\bin\Debug\net6.0\Newtonsoft.Json.dll
