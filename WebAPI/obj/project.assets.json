@@ -1108,7 +1108,9 @@
           "Entities": "1.0.0",
           "FluentValidation": "11.8.0",
           "Microsoft.AspNetCore.Http": "2.2.2",
-          "Microsoft.AspNetCore.Http.Abstractions": "2.2.0"
+          "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
+          "Microsoft.EntityFrameworkCore": "6.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.0"
         },
         "compile": {
           "bin/placeholder/Business.dll": {}
@@ -1158,7 +1160,9 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Core": "1.0.0"
+          "Core": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "6.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.0"
         },
         "compile": {
           "bin/placeholder/Entities.dll": {}
@@ -2845,8 +2849,8 @@
     },
     "Core/1.0.0": {
       "type": "project",
-      "path": "../../FinalProject/Core/Core.csproj",
-      "msbuildProject": "../../FinalProject/Core/Core.csproj"
+      "path": "../../../../OneDrive/Masaüstü/GorevTakip/GorevTakip/Core/Core.csproj",
+      "msbuildProject": "../../../../OneDrive/Masaüstü/GorevTakip/GorevTakip/Core/Core.csproj"
     },
     "DataAccess/1.0.0": {
       "type": "project",

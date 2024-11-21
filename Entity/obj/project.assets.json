@@ -2685,14 +2685,16 @@
     },
     "Core/1.0.0": {
       "type": "project",
-      "path": "../../FinalProject/Core/Core.csproj",
-      "msbuildProject": "../../FinalProject/Core/Core.csproj"
+      "path": "../../../../OneDrive/Masaüstü/GorevTakip/GorevTakip/Core/Core.csproj",
+      "msbuildProject": "../../../../OneDrive/Masaüstü/GorevTakip/GorevTakip/Core/Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Core >= 1.0.0",
+      "Microsoft.EntityFrameworkCore >= 6.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.0",
+      "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.0"
     ]
   },
@@ -2729,8 +2731,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\salih\\source\\repos\\FinalProject\\Core\\Core.csproj": {
-              "projectPath": "C:\\Users\\salih\\source\\repos\\FinalProject\\Core\\Core.csproj"
+            "C:\\Users\\salih\\OneDrive\\Masaüstü\\GorevTakip\\GorevTakip\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\salih\\OneDrive\\Masaüstü\\GorevTakip\\GorevTakip\\Core\\Core.csproj"
             }
           }
         }
@@ -2745,9 +2747,17 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[6.0.0, )"
+          },
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
+            "target": "Package",
+            "version": "[6.0.0, )"
+          },
+          "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[6.0.0, )"
           },
