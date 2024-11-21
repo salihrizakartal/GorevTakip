@@ -10,7 +10,8 @@ namespace Entities.Concrete
 {
     public class Plant:IEntity
     {
-        [Key]  public int PowerPlantId { get; set; }
+        [Key]  
+        public int PowerPlantId { get; set; }
         
 
         public string PowerPlantName { get; set; }

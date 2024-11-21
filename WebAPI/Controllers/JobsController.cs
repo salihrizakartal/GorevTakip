@@ -68,5 +68,18 @@ namespace WebAPI.Controllers
             }
             return BadRequest(result);
         }
+
+        [HttpPost("update")]
+
+        public IActionResult Update(Job job)
+        {
+            var result = _jobService.Update(job);
+
+            if (result.Success)
+            {
+                return Ok(result);
+            }
+            return BadRequest(result);
+        }
     }
 }

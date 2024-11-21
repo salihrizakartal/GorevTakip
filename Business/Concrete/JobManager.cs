@@ -29,7 +29,7 @@ namespace Business.Concrete
 
         //Claim
 
-        [SecuredOperation("job.add,admin")]
+        //[SecuredOperation("job.add,admin")]
         [ValidationAspect(typeof(JobValidator))]
         [CacheRemoveAspect("IJobService.Get")]
 
