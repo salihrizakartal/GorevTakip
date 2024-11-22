@@ -2685,8 +2685,8 @@
     },
     "Core/1.0.0": {
       "type": "project",
-      "path": "../../../../OneDrive/Masaüstü/GorevTakip/GorevTakip/Core/Core.csproj",
-      "msbuildProject": "../../../../OneDrive/Masaüstü/GorevTakip/GorevTakip/Core/Core.csproj"
+      "path": "../Core/Core.csproj",
+      "msbuildProject": "../Core/Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -2731,9 +2731,6 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\salih\\OneDrive\\Masaüstü\\GorevTakip\\GorevTakip\\Core\\Core.csproj": {
-              "projectPath": "C:\\Users\\salih\\OneDrive\\Masaüstü\\GorevTakip\\GorevTakip\\Core\\Core.csproj"
-            },
             "C:\\Users\\salih\\source\\repos\\GorevTakip\\Core\\Core.csproj": {
               "projectPath": "C:\\Users\\salih\\source\\repos\\GorevTakip\\Core\\Core.csproj"
             }

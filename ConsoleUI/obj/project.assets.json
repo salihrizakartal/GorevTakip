@@ -2744,8 +2744,8 @@
     },
     "Core/1.0.0": {
       "type": "project",
-      "path": "../../../../OneDrive/Masaüstü/GorevTakip/GorevTakip/Core/Core.csproj",
-      "msbuildProject": "../../../../OneDrive/Masaüstü/GorevTakip/GorevTakip/Core/Core.csproj"
+      "path": "../Core/Core.csproj",
+      "msbuildProject": "../Core/Core.csproj"
     },
     "DataAccess/1.0.0": {
       "type": "project",
