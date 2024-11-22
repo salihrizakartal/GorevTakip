@@ -9,7 +9,6 @@
       "ConsoleUI/1.0.0": {
         "dependencies": {
           "Business": "1.0.0",
-          "Core": "1.0.0",
           "DataAccess": "1.0.0",
           "Entities": "1.0.0",
           "Microsoft.EntityFrameworkCore.Design": "6.0.0",
@@ -670,30 +669,17 @@
           "Autofac": "7.1.0",
           "Autofac.Extensions.DependencyInjection": "8.0.0",
           "Autofac.Extras.DynamicProxy": "7.1.0",
+          "Core": "1.0.0",
           "DataAccess": "1.0.0",
           "Entities": "1.0.0",
           "FluentValidation": "11.8.0",
           "Microsoft.AspNetCore.Http": "2.2.2",
-          "Microsoft.AspNetCore.Http.Abstractions": "2.2.0"
+          "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
+          "Microsoft.EntityFrameworkCore": "6.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.0"
         },
         "runtime": {
           "Business.dll": {}
-        }
-      },
-      "Core/1.0.0": {
-        "dependencies": {
-          "Autofac": "7.1.0",
-          "Autofac.Extensions.DependencyInjection": "8.0.0",
-          "Autofac.Extras.DynamicProxy": "7.1.0",
-          "FluentValidation": "11.8.0",
-          "Microsoft.AspNetCore.Http": "2.2.2",
-          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.0",
-          "Microsoft.Extensions.Configuration": "8.0.0-preview.1.23110.8",
-          "Microsoft.Extensions.Configuration.Binder": "8.0.0-rc.2.23479.6",
-          "Newtonsoft.Json": "13.0.3"
-        },
-        "runtime": {
-          "Core.dll": {}
         }
       },
       "DataAccess/1.0.0": {
@@ -709,10 +695,20 @@
       },
       "Entities/1.0.0": {
         "dependencies": {
-          "Core": "1.0.0"
+          "Core": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "6.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.0"
         },
         "runtime": {
           "Entities.dll": {}
+        }
+      },
+      "Core.Reference/1.0.0.0": {
+        "runtime": {
+          "Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
@@ -1148,11 +1144,6 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Core/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "DataAccess/1.0.0": {
       "type": "project",
       "serviceable": false,
@@ -1160,6 +1151,11 @@
     },
     "Entities/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Core.Reference/1.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

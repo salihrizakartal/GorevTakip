@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0YWyMu758vZwHBDgsZe9DpZLKzdO6BK5PSoGLvfqJoE3UAXyChNOEju5OIqlFU+wba4pwU+LlYcugp+WriEOZw==",
+  "dgSpecHash": "n35is5FwHS0+DG0sJRPKmq3gOcQUu/Yu2FVoEZAcw8cPWpa9ow8cPLmIdd/YxgbwPqF/+HIkTTjwjjhuq3FHWw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\salih\\source\\repos\\FinalProject\\Core\\Core.csproj",
+  "projectFilePath": "C:\\Users\\salih\\source\\repos\\GorevTakip\\Core\\Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\salih\\.nuget\\packages\\autofac\\7.1.0\\autofac.7.1.0.nupkg.sha512",
     "C:\\Users\\salih\\.nuget\\packages\\autofac.extensions.dependencyinjection\\8.0.0\\autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",
